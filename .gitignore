@@ -1,0 +1,22 @@
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Thumbs.db
+desktop.ini
+
+# Dataset / local training data
+Wajah/
+dataset_raw/
+
+# Downloaded AI models
+yolo11n.pt
+yolov8n.pt
+yolov8s-worldv2.pt
+
+# Exported OpenVINO model
+yolo11n_openvino_model/
+weights/clip/
